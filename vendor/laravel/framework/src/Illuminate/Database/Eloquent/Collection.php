@@ -14,7 +14,7 @@ use LogicException;
  * @template TKey of array-key
  * @template TModel of \Illuminate\Database\Eloquent\Model
  *
- * @extends \Illuminate\Support\Collection<TKey, TModel>
+ * @extends BaseCollection<TKey, TModel>
  */
 class Collection extends BaseCollection implements QueueableCollection
 {
@@ -27,7 +27,7 @@ class Collection extends BaseCollection implements QueueableCollection
      *
      * @param  mixed  $key
      * @param  TFindDefault  $default
-     * @return ($key is (\Illuminate\Contracts\Support\Arrayable<array-key, mixed>|array<mixed>) ? static : TModel|TFindDefault)
+     * @return ($key is (Arrayable<array-key, mixed>|array<mixed>) ? static : TModel|TFindDefault)
      */
     public function find($key, $default = null)
     {
@@ -56,7 +56,7 @@ class Collection extends BaseCollection implements QueueableCollection
      * @param  mixed  $key
      * @return TModel
      *
-     * @throws \Illuminate\Database\Eloquent\ModelNotFoundException
+     * @throws ModelNotFoundException
      */
     public function findOrFail($key)
     {
@@ -280,8 +280,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * Load a relationship path if it is not already eager loaded.
      *
-     * @param  \Illuminate\Database\Eloquent\Collection<int, TModel>  $models
-     * @param  array  $path
+     * @param  Collection<int, TModel>  $models
      * @return void
      */
     protected function loadMissingRelation(self $models, array $path)
@@ -414,7 +413,7 @@ class Collection extends BaseCollection implements QueueableCollection
      * @template TMapValue
      *
      * @param  callable(TModel, TKey): TMapValue  $callback
-     * @return \Illuminate\Support\Collection<TKey, TMapValue>|static<TKey, TMapValue>
+     * @return BaseCollection<TKey, TMapValue>|static<TKey, TMapValue>
      */
     public function map(callable $callback)
     {
@@ -432,7 +431,7 @@ class Collection extends BaseCollection implements QueueableCollection
      * @template TMapWithKeysValue
      *
      * @param  callable(TModel, TKey): array<TMapWithKeysKey, TMapWithKeysValue>  $callback
-     * @return \Illuminate\Support\Collection<TMapWithKeysKey, TMapWithKeysValue>|static<TMapWithKeysKey, TMapWithKeysValue>
+     * @return BaseCollection<TMapWithKeysKey, TMapWithKeysValue>|static<TMapWithKeysKey, TMapWithKeysValue>
      */
     public function mapWithKeys(callable $callback)
     {
@@ -693,7 +692,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * {@inheritDoc}
      *
-     * @return \Illuminate\Support\Collection<array-key, int>
+     * @return BaseCollection<array-key, int>
      */
     #[\Override]
     public function countBy($countBy = null)
@@ -704,7 +703,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * {@inheritDoc}
      *
-     * @return \Illuminate\Support\Collection<int, mixed>
+     * @return BaseCollection<int, mixed>
      */
     #[\Override]
     public function collapse()
@@ -715,7 +714,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * {@inheritDoc}
      *
-     * @return \Illuminate\Support\Collection<int, mixed>
+     * @return BaseCollection<int, mixed>
      */
     #[\Override]
     public function flatten($depth = INF)
@@ -726,7 +725,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * {@inheritDoc}
      *
-     * @return \Illuminate\Support\Collection<TModel, TKey>
+     * @return BaseCollection<TModel, TKey>
      */
     #[\Override]
     public function flip()
@@ -737,7 +736,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * {@inheritDoc}
      *
-     * @return \Illuminate\Support\Collection<int, TKey>
+     * @return BaseCollection<int, TKey>
      */
     #[\Override]
     public function keys()
@@ -750,7 +749,7 @@ class Collection extends BaseCollection implements QueueableCollection
      *
      * @template TPadValue
      *
-     * @return \Illuminate\Support\Collection<int, TModel|TPadValue>
+     * @return BaseCollection<int, TModel|TPadValue>
      */
     #[\Override]
     public function pad($size, $value)
@@ -761,7 +760,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * {@inheritDoc}
      *
-     * @return \Illuminate\Support\Collection<int<0, 1>, static<TKey, TModel>>
+     * @return BaseCollection<int<0, 1>, static<TKey, TModel>>
      */
     #[\Override]
     public function partition($key, $operator = null, $value = null)
@@ -772,7 +771,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * {@inheritDoc}
      *
-     * @return \Illuminate\Support\Collection<array-key, mixed>
+     * @return BaseCollection<array-key, mixed>
      */
     #[\Override]
     public function pluck($value, $key = null)
@@ -785,7 +784,7 @@ class Collection extends BaseCollection implements QueueableCollection
      *
      * @template TZipValue
      *
-     * @return \Illuminate\Support\Collection<int, \Illuminate\Support\Collection<int, TModel|TZipValue>>
+     * @return BaseCollection<int, BaseCollection<int, TModel|TZipValue>>
      */
     #[\Override]
     public function zip($items)
@@ -826,7 +825,7 @@ class Collection extends BaseCollection implements QueueableCollection
      *
      * @return string|null
      *
-     * @throws \LogicException
+     * @throws LogicException
      */
     public function getQueueableClass()
     {
@@ -848,7 +847,7 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * Get the queueable class name for the given model.
      *
-     * @param  \Illuminate\Database\Eloquent\Model  $model
+     * @param  Model  $model
      * @return string
      */
     protected function getQueueableModelClass($model)
@@ -901,7 +900,7 @@ class Collection extends BaseCollection implements QueueableCollection
      *
      * @return string|null
      *
-     * @throws \LogicException
+     * @throws LogicException
      */
     public function getQueueableConnection()
     {
@@ -923,9 +922,9 @@ class Collection extends BaseCollection implements QueueableCollection
     /**
      * Get the Eloquent query builder from the collection.
      *
-     * @return \Illuminate\Database\Eloquent\Builder<TModel>
+     * @return Builder<TModel>
      *
-     * @throws \LogicException
+     * @throws LogicException
      */
     public function toQuery()
     {

@@ -2,17 +2,26 @@
 
 namespace App;
 
+use App\Models\Task;
+use Illuminate\Database\Eloquent\Collection;
+
 interface TaskRepoInterface
 {
-    public function index(array $data);
+    public function index(array $data): Collection;
 
-    public function store(array $data);
+    public function store(array $data): Task;
 
-    public function update(array $data, $task_id);
+    public function update(array $data, Task $task): Task;
 
-    public function destroy($task_id);
+    public function destroy(int $task_id): bool;
 
-    public function show($task_id);
+    public function show(int $task_id): Task;
 
-    public function forceDelete($task_id);
+    public function forceDelete(int $task_id): bool;
+
+    public function getTaskById(int $task_id): Task;
+
+    public function showDeleted(): Collection;
+
+    public function restore(int $task_id): Task;
 }

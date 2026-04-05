@@ -8,78 +8,64 @@ use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
-    public function index(TaskService $Service, Request $request)
+    public function index(TaskService $service, Request $request)
     {
 
-        $tasks = $Service->index($request->all());
+        $tasks = $service->index($request->all());
 
         if ($tasks->isEmpty()) {
-            return response()->json([
-                'success' => false,
-                'data' => null,
-                'message' => 'no tasks found',
-            ]);
+            return \apiResponse($tasks, 'No tasks found', false, 404);
         }
 
-        return response()->json([
-            'success' => true,
-            'data' => $tasks,
-            'message' => 'these are all tasks',
-        ], 200);
+        return \apiResponse($tasks, 'tasks retrieved successfully', true, 200);
     }
 
-    public function store(TaskService $Service, CreateTaskRequest $request)
+    public function store(TaskService $service, CreateTaskRequest $request)
     {
-        $task = $Service->store($request->validated());
+        $task = $service->store($request->validated());
 
-        return response()->json([
-            'success' => true,
-            'data' => $task,
-            'message' => 'task created successfully',
-        ], 201);
+        return \apiResponse($task, 'Task created successfully', true, 201);
     }
 
     public function update(TaskService $service, CreateTaskRequest $request, $task_id)
     {
         $task = $service->update($request->validated(), $task_id);
 
-        return response()->json([
-            'success' => true,
-            'data' => $task,
-            'message' => 'Task updated successfully',
-        ], 200);
+        return \apiResponse($task, 'Task updated successfully', true, 200);
     }
 
     public function destroy(TaskService $service, $task_id)
     {
         $service->destroy($task_id);
 
-        return response()->json([
-            'success' => true,
-            'data' => null,
-            'message' => 'task deleted successfully',
-        ], 200);
+        return \apiResponse(null, 'Task deleted successfully', true, 200);
     }
 
     public function show(TaskService $service, $task_id)
     {
         $task = $service->show($task_id);
 
-        return response()->json([
-            'success' => true,
-            'data' => $task,
-            'message' => 'task retrieved successfully',
-        ], 200);
+        return \apiResponse($task, 'Task retrieved successfully', true, 200);
     }
 
     public function forceDelete(TaskService $service, $task_id)
     {
         $service->forceDelete($task_id);
 
-        return response()->json([
-            'success' => true,
-            'data' => null,
-            'message' => 'task deleted successfully',
-        ], 200);
+        return \apiResponse(null, 'Task deleted successfully', true, 200);
+    }
+
+    public function restore(TaskService $service, $task_id)
+    {
+        $task = $service->restore($task_id);
+
+        return \apiResponse($task, 'Task restored successfully', true, 200);
+    }
+
+    public function showDeleted(TaskService $service)
+    {
+        $tasks = $service->showDeleted();
+
+        return \apiResponse($tasks, 'Tasks retrieved successfully', true, 200);
     }
 }

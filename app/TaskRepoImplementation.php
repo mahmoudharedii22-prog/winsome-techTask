@@ -3,12 +3,13 @@
 namespace App;
 
 use App\Models\Task;
+use Illuminate\Database\Eloquent\Collection;
 
 class TaskRepoImplementation implements TaskRepoInterface
 {
     public function __construct() {}
 
-    public function index(array $data)
+    public function index(array $data): Collection
     {
         $query = Task::query();
 
@@ -46,55 +47,54 @@ class TaskRepoImplementation implements TaskRepoInterface
         return $query->get();
     }
 
-    public function store(array $data)
+    public function store(array $data): Task
     {
         return Task::create($data);
     }
 
-    public function update(array $data, $task_id)
+    public function update(array $data, Task $task): Task
     {
-        $task = Task::findOrFail($task_id);
-        $newStatus = $data->status ?? $task->status;
-
-        if ($task->status === 'done' && $newStatus !== 'done') {
-            return response()->json([
-                'success' => false,
-                'data' => null,
-                'message' => 'Task is already done and cannot be changed',
-            ]);
-        }
-
-        if ($task->status === 'pending' && $newStatus === 'done') {
-            return response()->json([
-                'success' => false,
-                'data' => null,
-                'message' => 'Task must go through in_progress first',
-            ]);
-        }
-
-        if ($task->status === 'in_progress' && $newStatus === 'pending') {
-            return response()->json([
-                'success' => false,
-                'data' => null,
-                'message' => 'Cannot move back to pending',
-            ]);
-        }
 
         $task->update($data);
+
+        return $task;
     }
 
-    public function destroy($task_id)
+    public function destroy(int $task_id): bool
     {
         return Task::findOrFail($task_id)->delete();
     }
 
-    public function show($task_id)
+    public function show(int $task_id): Task
     {
-        return Task::findOrFail($task_id);
+        $task = Task::findOrFail($task_id);
+
+        return $task;
     }
 
-    public function forceDelete($task_id)
+    public function forceDelete(int $task_id): bool
     {
-        return Task::findOrFail($task_id)->forceDelete();
+        return Task::fristOrFail($task_id)->forceDelete();
+    }
+
+    public function getTaskById(int $task_id): Task
+    {
+
+        $task = Task::findOrFail($task_id);
+
+        return $task;
+    }
+
+    public function showDeleted(): Collection
+    {
+        return Task::onlyTrashed()->get();
+    }
+
+    public function restore(int $task_id): Task
+    {
+        Task::withTrashed()->findOrFail($task_id)->restore();
+        $task = Task::findOrFail($task_id);
+
+        return $task;
     }
 }

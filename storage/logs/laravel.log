@@ -1472,3 +1472,1012 @@ Did you mean this?
 [stacktrace]
 #0 {main}
 "} 
+[2026-04-05 17:06:32] local.ERROR: Command "make:apiresource" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:apiresource\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:config
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at C:/Users/mahmo/code/techtask/vendor/symfony/console/Application.php:749)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/symfony/console/Application.php(298): Symfony/Component/Console/Application->find('make:apiresourc...')
+#1 C:/Users/mahmo/code/techtask/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#4 C:/Users/mahmo/code/techtask/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#5 {main}
+"} 
+[2026-04-05 17:12:37] local.ERROR: syntax error, unexpected token "if" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"if\" at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:59)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:21:18] local.ERROR: Cannot use [] for reading {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Cannot use [] for reading at C:/Users/mahmo/code/techtask/app/TaskService.php:29)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:23:31] local.ERROR: syntax error, unexpected variable "$data", expecting ":" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$data\", expecting \":\" at C:/Users/mahmo/code/techtask/app/TaskService.php:55)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:23:51] local.ERROR: syntax error, unexpected token "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"{\" at C:/Users/mahmo/code/techtask/app/TaskService.php:16)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:25:18] local.ERROR: Declaration of App\TaskRepoImplementation::index(array $data) must be compatible with App\TaskRepoInterface::index(array $data): Illuminate\Database\Eloquent\Collection {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::index(array $data) must be compatible with App\\TaskRepoInterface::index(array $data): Illuminate\\Database\\Eloquent\\Collection at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:25:18] local.ERROR: Declaration of App\TaskRepoImplementation::index(array $data) must be compatible with App\TaskRepoInterface::index(array $data): Illuminate\Database\Eloquent\Collection {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::index(array $data) must be compatible with App\\TaskRepoInterface::index(array $data): Illuminate\\Database\\Eloquent\\Collection at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:25:43] local.ERROR: syntax error, unexpected token "{" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"{\" at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:26:16] local.ERROR: Could not check compatibility between App\TaskRepoImplementation::index(array $data): App\Collection and App\TaskRepoInterface::index(array $data): Illuminate\Database\Eloquent\Collection, because class App\Collection is not available {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Could not check compatibility between App\\TaskRepoImplementation::index(array $data): App\\Collection and App\\TaskRepoInterface::index(array $data): Illuminate\\Database\\Eloquent\\Collection, because class App\\Collection is not available at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:26:18] local.ERROR: Could not check compatibility between App\TaskRepoImplementation::index(array $data): App\Collection and App\TaskRepoInterface::index(array $data): Illuminate\Database\Eloquent\Collection, because class App\Collection is not available {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Could not check compatibility between App\\TaskRepoImplementation::index(array $data): App\\Collection and App\\TaskRepoInterface::index(array $data): Illuminate\\Database\\Eloquent\\Collection, because class App\\Collection is not available at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:27:55] local.ERROR: Declaration of App\TaskRepoImplementation::update(array $data, App\Models\Task $task): App\Models\Task must be compatible with App\TaskRepoInterface::update(array $data, $task_id): App\Models\Task {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::update(array $data, App\\Models\\Task $task): App\\Models\\Task must be compatible with App\\TaskRepoInterface::update(array $data, $task_id): App\\Models\\Task at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:55)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:28:00] local.ERROR: Declaration of App\TaskRepoImplementation::update(array $data, App\Models\Task $task): App\Models\Task must be compatible with App\TaskRepoInterface::update(array $data, $task_id): App\Models\Task {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::update(array $data, App\\Models\\Task $task): App\\Models\\Task must be compatible with App\\TaskRepoInterface::update(array $data, $task_id): App\\Models\\Task at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:55)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:28:18] local.ERROR: Declaration of App\TaskRepoImplementation::update(array $data, App\Models\Task $task): App\Models\Task must be compatible with App\TaskRepoInterface::update(array $data, int $task_id): App\Models\Task {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::update(array $data, App\\Models\\Task $task): App\\Models\\Task must be compatible with App\\TaskRepoInterface::update(array $data, int $task_id): App\\Models\\Task at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:55)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:28:19] local.ERROR: Declaration of App\TaskRepoImplementation::update(array $data, App\Models\Task $task): App\Models\Task must be compatible with App\TaskRepoInterface::update(array $data, int $task_id): App\Models\Task {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::update(array $data, App\\Models\\Task $task): App\\Models\\Task must be compatible with App\\TaskRepoInterface::update(array $data, int $task_id): App\\Models\\Task at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:55)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:32:14] local.ERROR: Call to undefined function App\Http\Controllers\apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:33:18] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\mahmo\code\techtask\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\Users\\mahmo\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\mahmo\\code\\techtask\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\\\Users\\\\mahmo\\\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:1733)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:34:08] local.ERROR: Call to undefined function App\Http\Controllers\apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:35:43] local.ERROR: Call to undefined function App\Http\Controllers\apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:35:55] local.ERROR: Call to undefined function App\Http\Controllers\apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:36:18] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\mahmo\code\techtask\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\Users\\mahmo\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\mahmo\\code\\techtask\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\\\Users\\\\mahmo\\\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:1733)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:36:21] local.ERROR: Call to undefined function App\Http\Controllers\apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:36:30] local.ERROR: Call to undefined function App\Http\Controllers\apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:37:13] local.ERROR: Call to undefined function apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:37:18] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\mahmo\code\techtask\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\Users\\mahmo\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\mahmo\\code\\techtask\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\\\Users\\\\mahmo\\\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:1733)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:37:53] local.ERROR: Call to undefined function apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:37:59] local.ERROR: Call to undefined function apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:38:18] local.ERROR: Uncaught RuntimeException: Unable to detect application namespace. in C:\Users\mahmo\code\techtask\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\Foundation\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\Users\\mahmo\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught RuntimeException: Unable to detect application namespace. in C:\\Users\\mahmo\\code\\techtask\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1733
+Stack trace:
+#0 Command line code(1): Illuminate\\Foundation\\Application->getNamespace()
+#1 [internal function]: {closure:Command line code:1}('C:\\\\Users\\\\mahmo\\\\...')
+#2 Command line code(1): array_map(Object(Closure), Array)
+#3 {main}
+  thrown at C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:1733)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:39:32] local.ERROR: Call to undefined function apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:21)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:40:18] local.ERROR: Call to undefined function App\Http\Controllers\apiResponse() {"exception":"[object] (Error(code: 0): Call to undefined function App\\Http\\Controllers\\apiResponse() at C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php:16)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->index(Object(App/TaskService), Object(Illuminate/Http/Request))
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'index')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#37 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#38 {main}
+"} 
+[2026-04-05 17:49:36] local.ERROR: syntax error, unexpected token "\", expecting ";" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"\\\", expecting \";\" at C:/Users/mahmo/code/techtask/app/TaskService.php:41)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:50:36] local.ERROR: syntax error, unexpected token "if" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"if\" at C:/Users/mahmo/code/techtask/app/TaskService.php:37)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:51:53] local.ERROR: Property [status] does not exist on this collection instance. {"exception":"[object] (Exception(code: 0): Property [status] does not exist on this collection instance. at C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php:1078)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/app/TaskService.php(36): Illuminate/Support/Collection->__get('status')
+#1 C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php(32): App/TaskService->update(Array, 10)
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->update(Object(App/TaskService), Object(App/Http/Requests/CreateTaskRequest), '10')
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'update')
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#36 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#37 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#38 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#39 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#40 {main}
+"} 
+[2026-04-05 17:55:00] local.ERROR: Call to undefined method App\Models\Task::fristOrFail() {"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method App\\Models\\Task::fristOrFail() at C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:67)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(36): Illuminate/Database/Eloquent/Model::throwBadMethodCallException('fristOrFail')
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2793): Illuminate/Database/Eloquent/Model->forwardCallTo(Object(Illuminate/Database/Eloquent/Builder), 'fristOrFail', Array)
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2809): Illuminate/Database/Eloquent/Model->__call('fristOrFail', Array)
+#3 C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php(81): Illuminate/Database/Eloquent/Model::__callStatic('fristOrFail', Array)
+#4 C:/Users/mahmo/code/techtask/app/TaskService.php(31): App/TaskRepoImplementation->getTaskById(34)
+#5 C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php(32): App/TaskService->update(Array, 34)
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->update(Object(App/TaskService), Object(App/Http/Requests/CreateTaskRequest), '34')
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'update')
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#37 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#39 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#40 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#41 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#42 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#43 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#44 {main}
+"} 
+[2026-04-05 17:58:51] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at C:/Users/mahmo/code/techtask/app/TaskRepoInterface.php:24)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:59:01] local.ERROR: Class App\TaskRepoImplementation contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\TaskRepoInterface::showDeleted) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\TaskRepoImplementation contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\\TaskRepoInterface::showDeleted) at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:59:11] local.ERROR: Class App\TaskRepoImplementation contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (App\TaskRepoInterface::showDeleted, App\TaskRepoInterface::restore) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Class App\\TaskRepoImplementation contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (App\\TaskRepoInterface::showDeleted, App\\TaskRepoInterface::restore) at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:8)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:59:21] local.ERROR: syntax error, unexpected token "}", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting variable at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:87)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:59:29] local.ERROR: syntax error, unexpected identifier "showDeleted", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"showDeleted\", expecting variable at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:86)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:59:37] local.ERROR: syntax error, unexpected identifier "showDeleted", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"showDeleted\", expecting variable at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:86)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:59:44] local.ERROR: syntax error, unexpected identifier "showDeleted", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"showDeleted\", expecting variable at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:86)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 17:59:54] local.ERROR: syntax error, unexpected identifier "showDeleted", expecting variable {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"showDeleted\", expecting variable at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:87)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:02:05] local.ERROR: App\TaskRepoImplementation::show(): Argument #1 ($task_id) must be of type int, string given, called in C:\Users\mahmo\code\techtask\app\TaskService.php on line 60 {"exception":"[object] (TypeError(code: 0): App\\TaskRepoImplementation::show(): Argument #1 ($task_id) must be of type int, string given, called in C:\\Users\\mahmo\\code\\techtask\\app\\TaskService.php on line 60 at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:68)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/app/TaskService.php(60): App/TaskRepoImplementation->show('deleted')
+#1 C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php(46): App/TaskService->show('deleted')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->show(Object(App/TaskService), 'deleted')
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'show')
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#36 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#37 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#38 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#39 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#40 {main}
+"} 
+[2026-04-05 18:03:18] local.ERROR: App\TaskRepoImplementation::show(): Argument #1 ($task_id) must be of type int, string given, called in C:\Users\mahmo\code\techtask\app\TaskService.php on line 60 {"exception":"[object] (TypeError(code: 0): App\\TaskRepoImplementation::show(): Argument #1 ($task_id) must be of type int, string given, called in C:\\Users\\mahmo\\code\\techtask\\app\\TaskService.php on line 60 at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:68)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/app/TaskService.php(60): App/TaskRepoImplementation->show('deleted')
+#1 C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php(46): App/TaskService->show('deleted')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->show(Object(App/TaskService), 'deleted')
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'show')
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#36 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#37 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#38 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#39 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#40 {main}
+"} 
+[2026-04-05 18:03:57] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\" at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:96)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:04:21] local.ERROR: Declaration of App\TaskRepoImplementation::restore(int $task_id): App\Models\Task must be compatible with App\TaskRepoInterface::restore(int $task_id): bool {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::restore(int $task_id): App\\Models\\Task must be compatible with App\\TaskRepoInterface::restore(int $task_id): bool at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:93)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:04:36] local.ERROR: Declaration of App\TaskRepoImplementation::restore(int $task_id): App\Models\Task must be compatible with App\TaskRepoInterface::restore(int $task_id): bool {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::restore(int $task_id): App\\Models\\Task must be compatible with App\\TaskRepoInterface::restore(int $task_id): bool at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:93)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:04:37] local.ERROR: Declaration of App\TaskRepoImplementation::restore(int $task_id): App\Models\Task must be compatible with App\TaskRepoInterface::restore(int $task_id): bool {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::restore(int $task_id): App\\Models\\Task must be compatible with App\\TaskRepoInterface::restore(int $task_id): bool at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:93)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:05:06] local.ERROR: Declaration of App\TaskRepoImplementation::restore(int $task_id): App\Models\Task must be compatible with App\TaskRepoInterface::restore(int $task_id): bool {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::restore(int $task_id): App\\Models\\Task must be compatible with App\\TaskRepoInterface::restore(int $task_id): bool at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:93)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:05:19] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\" at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:97)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:05:29] local.ERROR: Declaration of App\TaskRepoImplementation::restore(int $task_id): App\Models\Task must be compatible with App\TaskRepoInterface::restore(int $task_id): bool {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Declaration of App\\TaskRepoImplementation::restore(int $task_id): App\\Models\\Task must be compatible with App\\TaskRepoInterface::restore(int $task_id): bool at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:93)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:05:38] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"return\" at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:97)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 18:06:21] local.ERROR: Call to undefined method App\Models\Task::fristOrFail() {"exception":"[object] (BadMethodCallException(code: 0): Call to undefined method App\\Models\\Task::fristOrFail() at C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php:67)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(36): Illuminate/Database/Eloquent/Model::throwBadMethodCallException('fristOrFail')
+#1 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2793): Illuminate/Database/Eloquent/Model->forwardCallTo(Object(Illuminate/Database/Eloquent/Builder), 'fristOrFail', Array)
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2809): Illuminate/Database/Eloquent/Model->__call('fristOrFail', Array)
+#3 C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php(96): Illuminate/Database/Eloquent/Model::__callStatic('fristOrFail', Array)
+#4 C:/Users/mahmo/code/techtask/app/TaskService.php(70): App/TaskRepoImplementation->restore(18)
+#5 C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php(60): App/TaskService->restore(18)
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->restore(Object(App/TaskService), '18')
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'restore')
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#37 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#39 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#40 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#41 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#42 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#43 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#44 {main}
+"} 
+[2026-04-05 18:07:27] local.ERROR: App\TaskRepoImplementation::show(): Argument #1 ($task_id) must be of type int, string given, called in C:\Users\mahmo\code\techtask\app\TaskService.php on line 60 {"exception":"[object] (TypeError(code: 0): App\\TaskRepoImplementation::show(): Argument #1 ($task_id) must be of type int, string given, called in C:\\Users\\mahmo\\code\\techtask\\app\\TaskService.php on line 60 at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:68)
+[stacktrace]
+#0 C:/Users/mahmo/code/techtask/app/TaskService.php(60): App/TaskRepoImplementation->show('deleted')
+#1 C:/Users/mahmo/code/techtask/app/Http/Controllers/TaskController.php(46): App/TaskService->show('deleted')
+#2 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/TaskController->show(Object(App/TaskService), 'deleted')
+#3 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(269): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/TaskController), 'show')
+#4 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Route.php(215): Illuminate/Routing/Route->runController()
+#5 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#6 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->{closure:Illuminate/Routing/Router::runRouteWithinStack():821}(Object(Illuminate/Http/Request))
+#7 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(52): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#8 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#9 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#10 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#11 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#12 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#13 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#14 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#15 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->{closure:Illuminate/Foundation/Http/Kernel::dispatchToRouter():197}(Object(Illuminate/Http/Request))
+#16 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:Illuminate/Pipeline/Pipeline::prepareDestination():178}(Object(Illuminate/Http/Request))
+#17 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#18 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#20 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#23 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#25 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#27 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#29 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#31 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(28): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#33 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#34 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->{closure:{closure:Illuminate/Pipeline/Pipeline::carry():194}:195}(Object(Illuminate/Http/Request))
+#35 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#36 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#37 C:/Users/mahmo/code/techtask/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#38 C:/Users/mahmo/code/techtask/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#39 C:/Program Files/Herd/resources/app.asar.unpacked/resources/valet/server.php(139): require('C://Users//mahmo//...')
+#40 {main}
+"} 
