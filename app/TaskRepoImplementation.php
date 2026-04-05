@@ -1,0 +1,95 @@
+<?php
+
+namespace App;
+
+use App\Models\Task;
+
+class TaskRepoImplementation implements TaskRepoInterface
+{
+    public function __construct() {}
+
+    public function index(array $data)
+    {
+        $query = Task::query();
+
+        // Filters & Search
+        $query->when(isset($data['status']), function ($query) use ($data) {
+            return $query->where('status', $data['status']);
+        })->when(isset($data['priority']), function ($query) use ($data) {
+            return $query->where('priority', $data['priority']);
+        })->when(isset($data['search']), function ($query) use ($data) {
+            return $query->where('title', 'like', '%'.$data['search'].'%');
+        });
+
+        // Sorting
+        if (isset($data['sort']) && $data['sort'] === 'due_date') {
+            $query->orderBy('due_date', 'desc');    
+        } elseif (isset($data['sort']) && $data['sort'] === 'priority') {
+            $query->orderByRaw("
+                CASE 
+                    WHEN priority = 'high' THEN 1
+                    WHEN priority = 'medium' THEN 2
+                    WHEN priority = 'low' THEN 3
+                END ASC
+            ");
+        } else {
+            // Smart default sorting
+            $query->orderByRaw("
+                CASE 
+                    WHEN priority = 'high' THEN 1
+                    WHEN priority = 'medium' THEN 2
+                    WHEN priority = 'low' THEN 3
+                END ASC
+            ")->orderBy('due_date', 'asc');
+        }
+
+        return $query->get();
+    }
+
+    public function store(array $data)
+    {
+        return Task::create($data);
+    }
+
+    public function update(array $data, $task_id)
+    {
+        $task = Task::findOrFail($task_id);
+        $newStatus = $data->status ?? $task->status;
+
+        if ($task->status === 'done' && $newStatus !== 'done') {
+            return response()->json([
+                'success' => false,
+                'data' => null,
+                'message' => 'Task is already done and cannot be changed',
+            ]);
+        }
+
+        if ($task->status === 'pending' && $newStatus === 'done') {
+            return response()->json([
+                'success' => false,
+                'data' => null,
+                'message' => 'Task must go through in_progress first',
+            ]);
+        }
+
+        if ($task->status === 'in_progress' && $newStatus === 'pending') {
+            return response()->json([
+                'success' => false,
+                'data' => null,
+                'message' => 'Cannot move back to pending',
+            ]);
+        }
+
+        $task->update($data);
+    }
+
+    public function destroy($task_id)
+    {
+        return Task::findOrFail($task_id)->delete();
+    }
+
+    public function show($task_id)
+    {
+        return Task::findOrFail($task_id);
+    }
+}
