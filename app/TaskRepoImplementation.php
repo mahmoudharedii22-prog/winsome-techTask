@@ -23,7 +23,7 @@ class TaskRepoImplementation implements TaskRepoInterface
 
         // Sorting
         if (isset($data['sort']) && $data['sort'] === 'due_date') {
-            $query->orderBy('due_date', 'desc');    
+            $query->orderBy('due_date', 'desc');
         } elseif (isset($data['sort']) && $data['sort'] === 'priority') {
             $query->orderByRaw("
                 CASE 
@@ -91,5 +91,10 @@ class TaskRepoImplementation implements TaskRepoInterface
     public function show($task_id)
     {
         return Task::findOrFail($task_id);
+    }
+
+    public function forceDelete($task_id)
+    {
+        return Task::findOrFail($task_id)->forceDelete();
     }
 }

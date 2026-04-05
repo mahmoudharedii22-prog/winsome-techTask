@@ -5,9 +5,9 @@ namespace App\Models {
     /**
      * App\Models\Task
      *
-     * @property string|null $deleted_at
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
+     * @property \Illuminate\Support\Carbon|null $deleted_at
      * @property string $due_date
      * @property string $priority
      * @property string $status
@@ -20,9 +20,9 @@ namespace App\Models {
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task whereStatus($value)
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task wherePriority($value)
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task whereDueDate($value)
+     * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task whereDeletedAt($value)
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task whereCreatedAt($value)
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task whereUpdatedAt($value)
-     * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task whereDeletedAt($value)
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task newModelQuery()
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task newQuery()
      * @method static \Illuminate\Database\Eloquent\Builder<Task>|Task query()

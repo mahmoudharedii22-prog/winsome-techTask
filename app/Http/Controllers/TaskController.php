@@ -71,4 +71,15 @@ class TaskController extends Controller
             'message' => 'task retrieved successfully',
         ], 200);
     }
+
+    public function forceDelete(TaskService $service, $task_id)
+    {
+        $service->forceDelete($task_id);
+
+        return response()->json([
+            'success' => true,
+            'data' => null,
+            'message' => 'task deleted successfully',
+        ], 200);
+    }
 }

@@ -36,4 +36,9 @@ class TaskService
     {
         return $this->repo->show($task_id);
     }
+
+    public function forceDelete($task_id)
+    {
+        return $this->repo->forceDelete($task_id);
+    }
 }

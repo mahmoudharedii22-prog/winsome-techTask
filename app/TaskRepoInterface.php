@@ -13,4 +13,6 @@ interface TaskRepoInterface
     public function destroy($task_id);
 
     public function show($task_id);
+
+    public function forceDelete($task_id);
 }

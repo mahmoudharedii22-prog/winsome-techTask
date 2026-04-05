@@ -1456,3 +1456,19 @@ Did you mean this?
 [stacktrace]
 #0 {main}
 "} 
+[2026-04-05 14:16:02] local.ERROR: syntax error, unexpected identifier "p", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"p\", expecting \"function\" at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:95)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 14:16:09] local.ERROR: syntax error, unexpected token "}", expecting "(" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected token \"}\", expecting \"(\" at C:/Users/mahmo/code/techtask/app/TaskRepoImplementation.php:96)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 14:16:21] local.ERROR: syntax error, unexpected identifier "pub", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"pub\", expecting \"function\" at C:/Users/mahmo/code/techtask/app/TaskRepoInterface.php:16)
+[stacktrace]
+#0 {main}
+"} 
+[2026-04-05 14:17:21] local.ERROR: syntax error, unexpected identifier "p", expecting "function" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected identifier \"p\", expecting \"function\" at C:/Users/mahmo/code/techtask/app/TaskService.php:39)
+[stacktrace]
+#0 {main}
+"} 
