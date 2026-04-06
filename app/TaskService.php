@@ -2,11 +2,13 @@
 
 namespace App;
 
+
 use App\Models\Task;
 use Illuminate\Database\Eloquent\Collection;
 
 class TaskService
 {
+
     /**
      * Create a new class instance.
      */
@@ -29,6 +31,7 @@ class TaskService
     {
 
         $task = $this->repo->getTaskById($task_id);
+        
 
         $newStatus = $data['status'] ?? $task->status;
 
@@ -36,15 +39,15 @@ class TaskService
 
         if ($task->status === 'done' && $newStatus !== 'done') {
 
-            return \apiResponse(null, 'Task is already done', false, 400);
+            throw new \Exception('Cannot move from done status');
         }
 
         if ($task->status === 'pending' && $newStatus === 'done') {
-            return \apiResponse(null, 'Cannot move to done', false, 400);
+            throw new \Exception('Cannot move to done before being in progress');
         }
 
         if ($task->status === 'in_progress' && $newStatus === 'pending') {
-            return \apiResponse(null, 'Cannot move to pending', false, 400);
+            throw new \Exception('Cannot move to pending from in progress');
         }
 
         return $this->repo->update($data, $task);

@@ -9,6 +9,7 @@ return array(
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\TaskController' => $baseDir . '/app/Http/Controllers/TaskController.php',
     'App\\Http\\Requests\\CreateTaskRequest' => $baseDir . '/app/Http/Requests/CreateTaskRequest.php',
+    'App\\Http\\Resources\\TaskCollectionResource' => $baseDir . '/app/Http/Resources/TaskCollectionResource.php',
     'App\\Http\\Resources\\TaskResource' => $baseDir . '/app/Http/Resources/TaskResource.php',
     'App\\Models\\Task' => $baseDir . '/app/Models/Task.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',

@@ -41,7 +41,6 @@ class ComposerStaticInitc57754c93ae34ac3b9b716a0fd2f2149
         'ce9671a430e4846b44e1c68c7611f9f5' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'a1cfe24d14977df6878b9bf804af2d1c' => __DIR__ . '/..' . '/nunomaduro/collision/src/Adapters/Phpunit/Autoload.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
-        '952a6d7ce791d1a598b3d722dc2b3670' => __DIR__ . '/../..' . '/app/Helpers/ApiResponseHelper.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -524,6 +523,7 @@ class ComposerStaticInitc57754c93ae34ac3b9b716a0fd2f2149
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\TaskController' => __DIR__ . '/../..' . '/app/Http/Controllers/TaskController.php',
         'App\\Http\\Requests\\CreateTaskRequest' => __DIR__ . '/../..' . '/app/Http/Requests/CreateTaskRequest.php',
+        'App\\Http\\Resources\\TaskCollectionResource' => __DIR__ . '/../..' . '/app/Http/Resources/TaskCollectionResource.php',
         'App\\Http\\Resources\\TaskResource' => __DIR__ . '/../..' . '/app/Http/Resources/TaskResource.php',
         'App\\Models\\Task' => __DIR__ . '/../..' . '/app/Models/Task.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
