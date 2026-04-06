@@ -3,7 +3,9 @@
 namespace App\Http\Requests;
 
 use Illuminate\Contracts\Validation\ValidationRule;
+use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Http\Exceptions\HttpResponseException;
 
 class CreateTaskRequest extends FormRequest
 {
@@ -27,7 +29,16 @@ class CreateTaskRequest extends FormRequest
             'description' => 'nullable|string',
             'status' => 'required|in:pending,in_progress,done',
             'priority' => 'required|in:low,medium,high',
-            'due_date' => 'required|date',
+            'due_date' => 'nullable|date|required_if:priority,high',
         ];
+    }
+
+    protected function failedValidation(Validator $validator)
+    {
+        throw new HttpResponseException(response()->json([
+            'success' => false,
+            'message' => 'Validation error',
+            'errors' => $validator->errors(),
+        ], 422));
     }
 }
