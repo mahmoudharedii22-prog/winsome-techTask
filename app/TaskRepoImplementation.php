@@ -62,25 +62,43 @@ class TaskRepoImplementation implements TaskRepoInterface
 
     public function destroy(int $task_id): bool
     {
-        return Task::findOrFail($task_id)->delete();
+        try {
+            return Task::findOrFail($task_id)->delete();
+        } catch (\Exception $e) {
+            throw new \Exception('Task not found');
+        }
+
     }
 
     public function show(int $task_id): Task
     {
-        $task = Task::findOrFail($task_id);
+        try {
+            $task = Task::findOrFail($task_id);
+        } catch (\Exception $e) {
+            throw new \Exception('Task not found');
+        }
 
         return $task;
     }
 
     public function forceDelete(int $task_id): bool
     {
-        return Task::fristOrFail($task_id)->forceDelete();
+        try {
+            return Task::findOrFail($task_id)->forceDelete();
+        } catch (\Exception $e) {
+            throw new \Exception('Task not found');
+        }
+
     }
 
     public function getTaskById(int $task_id): Task
     {
+        try {
+            $task = Task::findOrFail($task_id);
 
-        $task = Task::findOrFail($task_id);
+        } catch (\Exception $e) {
+            throw new \Exception('Task not found');
+        }
 
         return $task;
     }
@@ -92,8 +110,12 @@ class TaskRepoImplementation implements TaskRepoInterface
 
     public function restore(int $task_id): Task
     {
-        Task::withTrashed()->findOrFail($task_id)->restore();
-        $task = Task::findOrFail($task_id);
+        try {
+            Task::withTrashed()->findOrFail($task_id)->restore();
+            $task = Task::findOrFail($task_id);
+        } catch (\Exception $e) {
+            throw new \Exception('Task not found');
+        }
 
         return $task;
     }

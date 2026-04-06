@@ -8,7 +8,7 @@ namespace App\Models {
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
      * @property \Illuminate\Support\Carbon|null $deleted_at
-     * @property string $due_date
+     * @property string|null $due_date
      * @property string $priority
      * @property string $status
      * @property string|null $description
