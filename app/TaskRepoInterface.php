@@ -13,13 +13,12 @@ interface TaskRepoInterface
 
     public function update(array $data, Task $task): Task;
 
-    public function destroy(int $task_id): bool;
+    public function destroy(Task $task): bool;
 
-    public function show(int $task_id): Task;
+    public function show(Task $task): Task;
 
     public function forceDelete(int $task_id): bool;
 
-    public function getTaskById(int $task_id): Task;
 
     public function showDeleted(): Collection;
 

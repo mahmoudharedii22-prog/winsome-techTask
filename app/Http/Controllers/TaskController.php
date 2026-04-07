@@ -2,80 +2,88 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\ResponseHelper;
 use App\Http\Requests\CreateTaskRequest;
-use App\Http\Resources\TaskCollectionResource;
 use App\Http\Resources\TaskResource;
+use App\Models\Task;
 use App\TaskService;
 use Illuminate\Http\Request;
 
 class TaskController extends Controller
 {
-    public function index(TaskService $service, Request $request)
+    protected TaskService $service;
+
+    public function __construct(TaskService $service)
+    {
+        $this->service = $service;
+    }
+
+    public function index(Request $request)
     {
 
-        $tasks = $service->index($request->all());
+        $tasks = $this->service->index($request->all());
 
         if ($tasks->isEmpty()) {
-            return response()->json(['message' => 'No tasks found'], 404);
+            return ResponseHelper::failedResponse(null, 'Tasks not found', 404);
         }
 
-        return (new TaskCollectionResource($tasks))->setMessage('Tasks retrieved successfully');
+        return ResponseHelper::successReponse(TaskResource::collection($tasks), 'Tasks retrieved successfully', 200);
     }
 
-    public function store(TaskService $service, CreateTaskRequest $request)
+    public function store(CreateTaskRequest $request)
     {
         try {
-            $task = $service->store($request->validated());
+            $task = $this->service->store($request->validated());
         } catch (\Exception $e) {
-            return response()->json($e->getMessage(), 500);
+            return ResponseHelper::failedResponse(null, $e->getMessage(), 500);
         }
 
-        return (new TaskResource($task))->setMessage('Task created successfully');
+        return ResponseHelper::successReponse(new TaskResource($task), 'Task created successfully', 201);
     }
 
-    public function update(TaskService $service, CreateTaskRequest $request, $task_id)
+    public function update(CreateTaskRequest $request, Task $task)
     {
         try {
-            $task = $service->update($request->validated(), $task_id);
+            $task = $this->service->update($task, $request->validated());
         } catch (\Exception $e) {
-            return response()->json($e->getMessage(), 500);
+            return ResponseHelper::failedResponse(null, $e->getMessage(), 500);
         }
 
-        return (new TaskResource($task))->setMessage('Task updated successfully');
+        return ResponseHelper::successReponse(new TaskResource($task), 'Task updated successfully', 200);
     }
 
-    public function destroy(TaskService $service, $task_id)
+    public function destroy(Task $task)
     {
-        $service->destroy($task_id);
+        $this->service->destroy($task);
 
-        return response()->json('Task deleted successfully', 200);
+        return ResponseHelper::successReponse(null, 'Task deleted successfully', 200);
     }
 
-    public function show(TaskService $service, $task_id)
+    public function show(Task $task)
     {
-        $task = $service->show($task_id);
+        $task = $this->service->show($task);
 
-        return (new TaskResource($task))->setMessage('Task has been found successfully');
+        return ResponseHelper::successReponse(new TaskResource($task), 'Task has been found successfully', 200);
     }
 
-    public function forceDelete(TaskService $service, $task_id)
+    public function forceDelete($task_id)
     {
-        $service->forceDelete($task_id);
+        $this->service->forceDelete($task_id);
 
-        return (new TaskResource(null))->setMessage('Task has been forcely deleted successfully');
+        return ResponseHelper::successReponse(null, 'Task has been forcely deleted successfully', 200);
     }
 
-    public function restore(TaskService $service, $task_id)
+    public function restore($task)
     {
-        $task = $service->restore($task_id);
+        $task = $this->service->restore($task);
 
-        return (new TaskResource($task))->setMessage('Task has been restored  successfully');
+        return ResponseHelper::successReponse(new TaskResource($task), 'Task has been restored  successfully', 200);
     }
 
-    public function showDeleted(TaskService $service)
+    public function showDeleted()
     {
-        $tasks = $service->showDeleted();
+        $tasks = $this->service->showDeleted();
 
-        return (new TaskCollectionResource($tasks))->setMessage('Deleted tasks has been retrieved successfully');
+        return ResponseHelper::successReponse(TaskResource::collection($tasks), 'Deleted tasks has been retrieved successfully', 200);
     }
 }

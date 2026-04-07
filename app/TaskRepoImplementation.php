@@ -60,47 +60,23 @@ class TaskRepoImplementation implements TaskRepoInterface
         return $task;
     }
 
-    public function destroy(int $task_id): bool
+    public function destroy(Task $task): bool
     {
-        try {
-            return Task::findOrFail($task_id)->delete();
-        } catch (\Exception $e) {
-            throw new \Exception('Task not found');
-        }
-
+        return $task->delete();
     }
 
-    public function show(int $task_id): Task
+    public function show($task): Task
     {
-        try {
-            $task = Task::findOrFail($task_id);
-        } catch (\Exception $e) {
-            throw new \Exception('Task not found');
-        }
 
         return $task;
     }
 
     public function forceDelete(int $task_id): bool
     {
-        try {
-            return Task::findOrFail($task_id)->forceDelete();
-        } catch (\Exception $e) {
-            throw new \Exception('Task not found');
-        }
+        $task = Task::withTrashed()->findOrFail($task_id);
 
-    }
+        return $task->forceDelete();
 
-    public function getTaskById(int $task_id): Task
-    {
-        try {
-            $task = Task::findOrFail($task_id);
-
-        } catch (\Exception $e) {
-            throw new \Exception('Task not found');
-        }
-
-        return $task;
     }
 
     public function showDeleted(): Collection

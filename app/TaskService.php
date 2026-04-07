@@ -2,13 +2,11 @@
 
 namespace App;
 
-
 use App\Models\Task;
 use Illuminate\Database\Eloquent\Collection;
 
 class TaskService
 {
-
     /**
      * Create a new class instance.
      */
@@ -27,11 +25,8 @@ class TaskService
         return $this->repo->store($data);
     }
 
-    public function update(array $data, int $task_id)
+    public function update(Task $task, array $data): Task
     {
-
-        $task = $this->repo->getTaskById($task_id);
-        
 
         $newStatus = $data['status'] ?? $task->status;
 
@@ -53,14 +48,14 @@ class TaskService
         return $this->repo->update($data, $task);
     }
 
-    public function destroy(int $task_id): bool
+    public function destroy(Task $task): bool
     {
-        return $this->repo->destroy($task_id);
+        return $this->repo->destroy($task);
     }
 
-    public function show($task_id): Task
+    public function show(Task $task): Task
     {
-        return $this->repo->show($task_id);
+        return $this->repo->show($task);
     }
 
     public function forceDelete(int $task_id): bool
