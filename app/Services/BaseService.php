@@ -65,7 +65,6 @@ class BaseService
     {
 
         $newStatus = $data['status'] ?? $task->status;
-
         // To do : Error exception handling
 
         if ($task->status === 'done' && $newStatus !== 'done') {

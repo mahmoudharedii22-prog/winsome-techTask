@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Helpers\ResponseHelper;
 use App\Http\Requests\CreateTaskRequest;
+use App\Http\Requests\UpdateTaskRequest;
 use App\Http\Resources\TaskResource;
 use App\Models\Task;
 use App\Services\TaskService;
@@ -41,7 +42,7 @@ class TaskController extends Controller
         return ResponseHelper::successReponse(new TaskResource($task), 'Task created successfully', 201);
     }
 
-    public function update(CreateTaskRequest $request, Task $task)
+    public function update(UpdateTaskRequest $request, Task $task)
     {
         try {
             $task = $this->service->update($task, $request->validated());
