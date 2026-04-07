@@ -6,7 +6,7 @@ use App\Helpers\ResponseHelper;
 use App\Http\Requests\CreateTaskRequest;
 use App\Http\Resources\TaskResource;
 use App\Models\Task;
-use App\TaskService;
+use App\Services\TaskService;
 use Illuminate\Http\Request;
 
 class TaskController extends Controller

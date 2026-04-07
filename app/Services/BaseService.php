@@ -1,13 +1,22 @@
 <?php
 
-namespace App;
+namespace App\Services;
 
 use App\Models\Task;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
 
-class TaskRepoImplementation implements TaskRepoInterface
+class BaseService
 {
-    public function __construct() {}
+    protected Model $model;
+
+    /**
+     * Create a new class instance.
+     */
+    public function __construct(Model $model)
+    {
+        $this->model = $model;
+    }
 
     public function index(array $data): Collection
     {
@@ -52,8 +61,25 @@ class TaskRepoImplementation implements TaskRepoInterface
         return Task::create($data);
     }
 
-    public function update(array $data, Task $task): Task
+    public function update(Task $task, array $data): Task
     {
+
+        $newStatus = $data['status'] ?? $task->status;
+
+        // To do : Error exception handling
+
+        if ($task->status === 'done' && $newStatus !== 'done') {
+
+            throw new \Exception('Cannot move from done status');
+        }
+
+        if ($task->status === 'pending' && $newStatus === 'done') {
+            throw new \Exception('Cannot move to done before being in progress');
+        }
+
+        if ($task->status === 'in_progress' && $newStatus === 'pending') {
+            throw new \Exception('Cannot move to pending from in progress');
+        }
 
         $task->update($data);
 
@@ -65,9 +91,8 @@ class TaskRepoImplementation implements TaskRepoInterface
         return $task->delete();
     }
 
-    public function show($task): Task
+    public function show(Task $task): Task
     {
-
         return $task;
     }
 
@@ -76,12 +101,6 @@ class TaskRepoImplementation implements TaskRepoInterface
         $task = Task::withTrashed()->findOrFail($task_id);
 
         return $task->forceDelete();
-
-    }
-
-    public function showDeleted(): Collection
-    {
-        return Task::onlyTrashed()->get();
     }
 
     public function restore(int $task_id): Task
@@ -94,5 +113,10 @@ class TaskRepoImplementation implements TaskRepoInterface
         }
 
         return $task;
+    }
+
+    public function showDeleted(): Collection
+    {
+        return Task::onlyTrashed()->get();
     }
 }
