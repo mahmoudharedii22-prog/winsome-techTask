@@ -15,9 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('description')->nullable();
-            $table->enum('status', ['pending', 'in_progress', 'done'])->default('pending');
+            $table->enum('status', ['pending', 'in_progress', 'done', 'overdue'])->default('pending');
             $table->enum('priority', ['low', 'medium', 'high'])->default('low');
             $table->date('due_date')->nullable();
+            $table->foreignId('assignee_id')->constrained('users')->onDelete('cascade');
+            $table->foreignId('created_by')->constrained('users')->onDelete('cascade');
             $table->softDeletes();
             $table->timestamps();
         });

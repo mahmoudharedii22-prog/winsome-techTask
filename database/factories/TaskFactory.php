@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Task;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -25,6 +26,8 @@ class TaskFactory extends Factory
             'status' => fake()->randomElement(['pending', 'in_progress', 'done']),
             'priority' => fake()->randomElement(['low', 'medium', 'high']),
             'due_date' => fake()->date(),
+            'assignee_id' => User::inRandomOrder()->first()->id,
+            'created_by' => 1, // Assuming the admin user has ID 1
         ];
     }
 }

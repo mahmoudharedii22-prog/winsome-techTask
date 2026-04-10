@@ -2,7 +2,6 @@
 
 namespace App\Services;
 
-use App\Models\Task;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
@@ -18,104 +17,55 @@ class BaseService
         $this->model = $model;
     }
 
-    public function index(array $data): Collection
+    public function index(): Collection
     {
-        $query = Task::query();
-
-        // Filters & Search
-        $query->when(isset($data['status']), function ($query) use ($data) {
-            return $query->where('status', $data['status']);
-        })->when(isset($data['priority']), function ($query) use ($data) {
-            return $query->where('priority', $data['priority']);
-        })->when(isset($data['search']), function ($query) use ($data) {
-            return $query->where('title', 'like', '%'.$data['search'].'%');
-        });
-
-        // Sorting
-        if (isset($data['sort']) && $data['sort'] === 'due_date') {
-            $query->orderBy('due_date', 'desc');
-        } elseif (isset($data['sort']) && $data['sort'] === 'priority') {
-            $query->orderByRaw("
-                CASE 
-                    WHEN priority = 'high' THEN 1
-                    WHEN priority = 'medium' THEN 2
-                    WHEN priority = 'low' THEN 3
-                END ASC
-            ");
-        } else {
-            // Smart default sorting
-            $query->orderByRaw("
-                CASE 
-                    WHEN priority = 'high' THEN 1
-                    WHEN priority = 'medium' THEN 2
-                    WHEN priority = 'low' THEN 3
-                END ASC
-            ")->orderBy('due_date', 'asc');
-        }
-
-        return $query->get();
+        return $this->model::all();
     }
 
-    public function store(array $data): Task
+    public function store(array $data)
     {
-        return Task::create($data);
+        return $this->model::create($data);
     }
 
-    public function update(Task $task, array $data): Task
+    public function update($model_object, array $data): Model
     {
 
-        $newStatus = $data['status'] ?? $task->status;
-        // To do : Error exception handling
+        $model_object->update($data);
 
-        if ($task->status === 'done' && $newStatus !== 'done') {
-
-            throw new \Exception('Cannot move from done status');
-        }
-
-        if ($task->status === 'pending' && $newStatus === 'done') {
-            throw new \Exception('Cannot move to done before being in progress');
-        }
-
-        if ($task->status === 'in_progress' && $newStatus === 'pending') {
-            throw new \Exception('Cannot move to pending from in progress');
-        }
-
-        $task->update($data);
-
-        return $task;
+        return $model_object;
     }
 
-    public function destroy(Task $task): bool
+    public function destroy(Model $model_object): bool
     {
-        return $task->delete();
+        return $model_object->delete();
     }
 
-    public function show(Task $task): Task
+    public function show(Model $model_object): Model
     {
-        return $task;
+        return $model_object;
     }
 
-    public function forceDelete(int $task_id): bool
+    public function forceDelete(int $model_object_id): bool
     {
-        $task = Task::withTrashed()->findOrFail($task_id);
+        $model_object = $this->model::withTrashed()->findOrFail($model_object_id);
 
-        return $task->forceDelete();
+        return $model_object->forceDelete();
     }
 
-    public function restore(int $task_id): Task
+    public function restore(int $model_object_id): Model
     {
         try {
-            Task::withTrashed()->findOrFail($task_id)->restore();
-            $task = Task::findOrFail($task_id);
+            $this->model::withTrashed()->findOrFail($model_object_id)->restore();
+            $model_object = $this->model::findOrFail($model_object_id);
         } catch (\Exception $e) {
-            throw new \Exception('Task not found');
+           abort(404, 'Model not found');
         }
 
-        return $task;
+        return $model_object;
     }
 
     public function showDeleted(): Collection
     {
-        return Task::onlyTrashed()->get();
+        return $this->model::onlyTrashed()->get();
     }
 }

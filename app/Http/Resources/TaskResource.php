@@ -7,17 +7,6 @@ use Illuminate\Http\Resources\Json\JsonResource;
 
 class TaskResource extends JsonResource
 {
-
-
-    protected $message = null;
-
-    public function setMessage($message)
-    {
-        $this->message = $message ?? null;
-
-        return $this;
-    }
-
     /**
      * Transform the resource into an array.
      *
@@ -26,23 +15,12 @@ class TaskResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-
             'title' => $this->title,
             'description' => $this->description,
             'status' => $this->status,
             'priority' => $this->priority,
             'due_date' => $this->due_date,
             'is_overdue' => $this->when($this->due_date > now(), true),
-
         ];
-    }
-
-    public function with(Request $request)
-    {
-        return [
-            'success' => true,
-            'message' => $this->message,
-        ];
-
     }
 }

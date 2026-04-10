@@ -1,13 +1,12 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\Task;
 
-
+use App\Http\Requests\BaseRequest;
 use Illuminate\Contracts\Validation\Validator;
-use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Exceptions\HttpResponseException;
 
-class UpdateTaskRequest extends FormRequest
+class CreateTaskRequest extends BaseRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,16 +24,19 @@ class UpdateTaskRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'title' => 'sometimes|string|max:50',
-            'description' => 'sometimes|nullable|string',
-            'status' => 'sometimes|in:pending,in_progress,done',
-            'priority' => 'sometimes|in:low,medium,high',
-            'due_date' => 'sometimes|nullable|date|required_if:priority,high',
+            'title' => 'required|string|max:50',
+            'description' => 'nullable|string',
+            'status' => 'required|in:pending,in_progress,done',
+            'priority' => 'required|in:low,medium,high',
+            'due_date' => 'nullable|date|required_if:priority,high|after_or_equal:today',
+            'assignee_id' => 'required|exists:users,id',
+
         ];
     }
-    protected  function failedValidation(Validator $validator)
+
+    protected function failedValidation(Validator $validator)
     {
-        return throw new HttpResponseException(response()->json([
+        throw new HttpResponseException(response()->json([
             'success' => false,
             'message' => 'Validation error',
             'errors' => $validator->errors(),
