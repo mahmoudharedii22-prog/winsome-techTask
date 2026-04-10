@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Mail\TaskAssignedMail;
+use App\Mail\TaskUpdatedMail;
 use App\Models\Task;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
@@ -33,7 +34,7 @@ class TaskService extends BaseService
         $updatedTask = $this->update($task, $data);
 
         Mail::to($updatedTask->user->email)
-            ->send(new TaskAssignedMail($updatedTask));
+            ->send(new TaskUpdatedMail($updatedTask));
 
         return $updatedTask;
     }
@@ -50,7 +51,7 @@ class TaskService extends BaseService
 
         $task = $this->store($data);
 
-        Mail::to('mahmoudharedii22new@gmail.com')->send(new TaskAssignedMail($task));
+        Mail::to($task->user->email)->send(new TaskAssignedMail($task));
 
         return $task;
     }
